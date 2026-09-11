@@ -1,0 +1,53 @@
+# Dank Memer Flipping Bot — example configuration
+# Copy to config.yaml and adjust. Values here are safe defaults for
+# PAPER TRADING with a mock market feed.
+
+mode: paper                 # paper | live
+accounts:
+  - name: main              # profile name shown in GUI
+    token_env: DISCORD_TOKEN
+
+market:
+  source: mock              # mock | discord | both
+  channel_ids: []           # [123456789012345678, ...] for discord source
+  scan_interval_sec: 5      # mock feed cadence / discord rescan
+  backfill: true
+
+estimator:
+  half_life_hours: 12
+  min_observations: 4
+  iqr_k: 1.5
+  confidence_volume: 40     # observations for ~full confidence
+
+trading:
+  profit_threshold: 0.08    # net-of-tax edge required to buy (25% market tax!)
+  min_confidence: 0.55
+  max_trade_coins: 50000
+  max_trade_pct: 0.20       # fraction of bank per trade
+  max_item_exposure_pct: 0.35
+  cooldown_sec: 600
+  twap_enabled: true
+  twap_slices: 5
+  twap_interval_sec: 90
+  auto_sell_target: 0.02    # sell when bid >= fair*(1+2%)
+  stop_loss: 0.15
+  auto_buy_tools: true
+
+risk:
+  max_consecutive_losses: 4
+  max_portfolio_drop_pct: 0.20
+  equity_check_interval_sec: 60
+
+inventory:
+  target_cash_pct: 0.35
+  skew_tolerance: 0.15
+  skew_check_interval_sec: 90
+  essential_tools: [shovel, fishing_pole, rifle]
+  tool_rebuy_cooldown_sec: 900
+
+daily_briefing:
+  enabled: true
+  hour_utc: 12
+
+alerts:
+  min_profit_alert: 0.25    # alert on opportunities above 25% edge

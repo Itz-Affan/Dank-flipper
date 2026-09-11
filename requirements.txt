@@ -1,0 +1,21 @@
+# Core runtime
+discord.py-self>=2.0        # self-user Discord client (token login)
+aiohttp>=3.9
+python-dotenv>=1.0
+loguru>=0.7
+PyYAML>=6.0
+
+# Data / analysis
+pandas>=2.0
+numpy>=1.26
+
+# GUI
+PySide6>=6.6
+qasync>=0.27
+
+# Optional charts (GUI uses built-in QPainter charts; matplotlib optional)
+# matplotlib>=3.8
+
+# Dev / tests
+pytest>=8.0
+pytest-asyncio>=0.23

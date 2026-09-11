@@ -1,0 +1,43 @@
+2026-09-11 22:27:00.895 | INFO     | dankflipper.runtime:start:103 - runtime started: source=mock mode=paper db=data/dankflipper.db
+2026-09-11 22:27:01.126 | INFO     | dankflipper.trading_engine:run:275 - Trading engine started (account=main, mode=paper)
+2026-09-11 22:27:26.241 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:27:31.245 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:27:36.249 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:27:41.271 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:27:46.276 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:27:51.289 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:42:42.286 | INFO     | dankflipper.runtime:start:103 - runtime started: source=mock mode=paper db=data/dankflipper.db
+2026-09-11 22:42:42.353 | INFO     | dankflipper.trading_engine:run:275 - Trading engine started (account=main, mode=paper)
+2026-09-11 22:42:47.377 | INFO     | dankflipper.trading_engine:execute_opportunity:208 - BOUGHT 4x rifle @ 11,852.0 (pos 4 @ avg 11852)
+2026-09-11 22:42:47.378 | INFO     | dankflipper.trading_engine:_auto_sell_pass:327 - auto-sell rifle: bid 25,962.0 >= target 12089
+2026-09-11 22:42:52.421 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:42:57.456 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:43:02.508 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:43:07.616 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:43:12.694 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:43:17.699 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:43:22.720 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:43:27.737 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:43:32.769 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:43:37.791 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:43:42.814 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:43:47.844 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:43:52.870 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:43:57.869 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:44:02.895 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:44:07.919 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:44:12.946 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:44:17.959 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:44:22.971 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:44:27.987 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:44:33.004 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:44:38.019 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:44:43.035 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:44:48.042 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:44:53.207 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:44:58.238 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:45:03.252 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:45:08.263 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:45:13.290 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:45:18.330 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659
+2026-09-11 22:45:23.361 | INFO     | dankflipper.trading_engine:execute_opportunity:160 - skip stonks_note: budget 50000 < ask 53659

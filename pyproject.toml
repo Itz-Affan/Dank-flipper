@@ -1,0 +1,13 @@
+[project]
+name = "dank-flipper"
+version = "0.1.0"
+description = "Dank Memer market flipping bot with market intelligence and a PySide6 GUI"
+requires-python = ">=3.10"
+
+[tool.uv]
+# The GUI stack (PySide6 + qasync) is most reliable on CPython 3.13.
+# `uv python install 3.13` then `uv venv --python 3.13` if needed.
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
